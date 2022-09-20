@@ -23,7 +23,7 @@ namespace Catalog.API.Repositories
                 .ToListAsync();
         }
 
-        public async Task<Product> GetProduct(string id)
+        public async Task<Product> GetProducts(string id)
         {
             return await _context
                 .Products
